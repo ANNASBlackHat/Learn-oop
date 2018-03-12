@@ -23,7 +23,8 @@ public class Main {
 
         implement.insert(product);
 
-        System.out.println(implement.get().getName());
+        Product product1 = (Product) implement.getData();
+        System.out.println("Nama Produk : "+product1.getName());
     }
 
 }
